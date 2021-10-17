@@ -1,8 +1,12 @@
 {
-  "name": "selleree-front",
+  "name": "@hodoo/root",
   "private": true,
   "devDependencies": {
+    "craco": "^0.0.3",
     "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "start": "lerna exec --scope @hodoo/app -- yarn start"
   },
   "workspaces": {
     "packages": [
